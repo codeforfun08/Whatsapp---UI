@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link  rel="icon" href="assests/images/WhatsApp-Logo.png" type="assests/images/x-icon" > 
+</head>
+<body>
+        <main class="main-body">
+            <section class="left-section">
+                
+                <div class="profile" >
+                  <a href="#" style="border-radius: 50px;">  <figure class="profile-pic">
+                    <img src="assests/images/profile.jpg" alt="profile">
+                    </figure></a>
+                    <div class="action-buttons"  >
+                        <svg class="status" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#999" d="M12 20.664a9.163 9.163 0 0 1-6.521-2.702.977.977 0 0 1 1.381-1.381 7.269 7.269 0 0 0 10.024.244.977.977 0 0 1 1.313 1.445A9.192 9.192 0 0 1 12 20.664zm7.965-6.112a.977.977 0 0 1-.944-1.229 7.26 7.26 0 0 0-4.8-8.804.977.977 0 0 1 .594-1.86 9.212 9.212 0 0 1 6.092 11.169.976.976 0 0 1-.942.724zm-16.025-.39a.977.977 0 0 1-.953-.769 9.21 9.21 0 0 1 6.626-10.86.975.975 0 1 1 .52 1.882l-.015.004a7.259 7.259 0 0 0-5.223 8.558.978.978 0 0 1-.955 1.185z"></path></svg>
+                        <svg class="new-chat"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#999" d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z"></path></svg>
+                        <svg class="drop-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#999" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
+                    
+                    </div> 
+                </div> 
+                      
+                
+                       
+                      
+                <div class="searchbox">
+                    <div onclick="changeback()" id="searchicon">
+                    <i  class="fa fa-search"></i>
+                    </div>
+                     <input onclick="change()" placeholder="Search or start new chat" id="msearch" type="text">
+                    
+                </div>
+                <div class="searchline">
+                </div>  
+           <a href="#"> <div class="messagebody">
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/1.png" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle"  style="color: #ffffff;"><b>Jhon</b></div>
+                      <div class="msgtime" style="color: #00af9c;" ><b>3:00</b></div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent" style="color: #d4d5d7;">
+                        <b>Slept?</b>
+                        <span class="drop" name="drop" ><i class="fa fa-chevron-down" style="font-size: 18px; color:#555"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/9.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Barry</div>
+                      <div class="msgtime" >2:00</div>  
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Chilling in speed force
+                            <span class="drop" id="drop" ><i class="fa fa-chevron-down" style="font-size: 18px; color:#555"></i></span>
+                
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+           
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/10.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Mr.Stark</div>
+                      <div class="msgtime" >Sunday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            I'm IronMan
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/7.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">JD</div>
+                      <div class="msgtime" >Saturday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Life is very short nanba
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/8.jfif" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Naruto</div>
+                      <div class="msgtime" >Friday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            My ninja way
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/4.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Ramya</div>
+                      <div class="msgtime" >Sunday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            https://www.youtube.com
+                        </div>
+                    </div>
+                    </div>  
+                
+
+            </div> 
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/5.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Vineeth</div>
+                      <div class="msgtime" >Sunday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Let's go out
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/6.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Vamshi</div>
+                      <div class="msgtime" >Saturday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Pubg?
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/2.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Adam</div>
+                      <div class="msgtime" >Thursday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Good night
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/3.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Eve</div>
+                      <div class="msgtime" >Thursday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            i need apple
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            
+            <div class="messagebox" onmouseover="bghoverin(this)" onmouseout="bghoverout(this)">
+                <div class="messageprofilepic">
+              <img src="assests/images/profile.jpg" alt="profile">
+                </div>
+
+                <div class="message">
+                    <div class="rowone">  
+                    <div class="msgtitle" id="msgtitle">Warner</div>
+                      <div class="msgtime" >Thursday</div>
+                    </div>
+                    <div class="rowtwo">
+                        <div class="msgcontent">
+                            Oh! Good
+                        </div>
+                    </div>
+                    </div>
+                
+
+            </div>
+            
+            
+           
+         
+            </div></a>
+          <div class="blank"></div>
+            </section>
+            
+            <Section class="right-section">
+                
+                    <div class="right-center">
+                <figure>
+                    <img class="hero-image" src="assests/images/home.png" alt="Hero-Image">
+                </figure>
+                <h1>Keep your phone connected</h1>
+                <h2>WhatsApp connects to your phone to sync messages. To reduce data<br> usage, connect your phone to Wi-Fi.</h2>     
+                  <div class="line">
+                  </div>  
+                  
+                <div class="download-message">
+                    <span style="font-size: 17px;">
+                        <i class="fa fa-laptop"></i>
+                    </span>
+                    WhatsApp is available for Windows. <a href="https://www.whatsapp.com/download" target="_blank">Get it here.</a> 
+                </div>
+                <div class="bottom-line">
+                    
+                </div>
+            </div>
+
+            </Section>
+
+
+
+        </main>  
+
+        <script src="https://use.fontawesome.com/233776e306.js"></script>
+        <script>
+            var iconstatus=1;
+            function change(){
+                if(iconstatus==1){
+                   document.getElementById("searchicon").innerHTML='<i class="fa fa-arrow-left"></i>';
+            iconstatus=0;
+                }
+        }
+        function bghoverin(x){
+            x.style.backgroundColor="#2d3134";
+            //x.drop.style.display='block';
+          }
+        function bghoverout(x){
+            x.style.backgroundColor="#131c21";
+            //document.getElementById("drop").style.display='none';
+        }
+            function changeback(){
+            if(iconstatus==0){
+            document.getElementById("searchicon").innerHTML='<i class="fa fa-search"></i>';
+            document.getElementById("msearch").value="";
+            iconstatus=1 
+        }
+        }
+      
+
+        </script>
+
+
+</body>
+</html>
