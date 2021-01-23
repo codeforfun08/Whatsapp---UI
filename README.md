@@ -1,5 +1,5 @@
 # Whatsapp---UI
-Whatsapp web landing page using basic html,css & java for beginners in webdevelopment who want to hone their skills in forntend(UI) development
+Whatsapp web landing page using basic html,css & javascript 
 
 Features:
 1.Landing page in darkmode
