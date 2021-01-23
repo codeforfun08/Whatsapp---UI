@@ -12,4 +12,4 @@ Future work:
 3.making css simpler using grid or flex
 4.toggle between dark and light mode
 
-![Home](https://user-images.githubusercontent.com/45736492/105608598-dba89400-5dc9-11eb-8bed-fd4554cf1122.PNG)
+![Home](https://user-images.githubusercontent.com/45736492/105609366-dbf75e00-5dce-11eb-96ac-3949a18d115e.PNG)
